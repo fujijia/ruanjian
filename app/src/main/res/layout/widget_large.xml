@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_gradient">
+
+    <ImageView
+        android:id="@+id/widget_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/widget_name"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView android:id="@+id/widget_empty" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/widget_empty" android:textColor="#FFFFFF" android:textSize="16sp" android:visibility="gone" />
+
+        <LinearLayout android:id="@+id/widget_row_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/widget_title_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" />
+                <TextView android:id="@+id/widget_sub_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#CCFFFFFF" android:textSize="11sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/widget_days_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/widget_row_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/widget_title_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" />
+                <TextView android:id="@+id/widget_sub_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#CCFFFFFF" android:textSize="11sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/widget_days_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/widget_row_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/widget_title_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" />
+                <TextView android:id="@+id/widget_sub_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#CCFFFFFF" android:textSize="11sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/widget_days_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/widget_row_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/widget_title_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" />
+                <TextView android:id="@+id/widget_sub_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#CCFFFFFF" android:textSize="11sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/widget_days_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/widget_row_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/widget_title_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" />
+                <TextView android:id="@+id/widget_sub_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="end" android:singleLine="true" android:textColor="#CCFFFFFF" android:textSize="11sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/widget_days_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

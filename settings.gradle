@@ -1,0 +1,26 @@
+// 本地开发使用国内镜像加速；GitHub Actions 海外环境直接用官方源，更稳定。
+pluginManagement {
+    repositories {
+        if (System.getenv("GITHUB_ACTIONS") != "true") {
+            maven { url 'https://maven.aliyun.com/repository/google' }
+            maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+            maven { url 'https://maven.aliyun.com/repository/public' }
+        }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        if (System.getenv("GITHUB_ACTIONS") != "true") {
+            maven { url 'https://maven.aliyun.com/repository/google' }
+            maven { url 'https://maven.aliyun.com/repository/public' }
+        }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = 'CountdownWidget'
+include ':app'

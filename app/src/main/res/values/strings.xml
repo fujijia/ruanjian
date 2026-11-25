@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">星愿倒计时</string>
+    <string name="widget_name">星愿倒计时</string>
+    <string name="title_add_event">添加倒计时</string>
+    <string name="action_change_bg">更换背景图片</string>
+    <string name="action_clear_bg">恢复默认背景</string>
+    <string name="hint_title">给这个日子起个名字…</string>
+    <string name="btn_save">保存 ✨</string>
+    <string name="btn_delete">删除这个倒计时</string>
+    <string name="pick_date">选择日期</string>
+    <string name="label_emoji">选个图标</string>
+    <string name="label_color">选个颜色</string>
+    <string name="empty_hint">还没有倒计时\n点右下角 + 添加一个吧 ✨</string>
+    <string name="dialog_delete_title">删除倒计时</string>
+    <string name="dialog_delete_msg">确定删除「%1$s」吗？</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="toast_title_required">先写个名字吧～</string>
+    <string name="toast_bg_updated">背景已更新 ✨</string>
+    <string name="toast_bg_failed">设置背景失败</string>
+    <string name="toast_bg_cleared">已恢复默认背景</string>
+    <string name="widget_empty">点我添加倒计时 ✨</string>
+</resources>
